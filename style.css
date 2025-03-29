@@ -1,0 +1,102 @@
+@charset "UTF_8";
+
+body{
+    margin: 0px;
+    font-family: "circular std", sans-serif;
+    background-color: #00081D;
+}
+#logo{
+    width: 150px;
+}
+
+
+#container{
+    background-image:url("https://assets.nflxext.com/ffe/siteui/vlv3/50fcc930-ba3f-4cae-9257-9f920e30a998/web/BR-pt-20250310-TRIFECTA-perspective_2da04685-5862-418d-bce5-82c0a7f9fab8_large.jpg");
+    height: 700px;
+    background-size: cover;
+    padding: 30px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.btn-enter{
+    background-color:red;
+    padding: 7px 10px;
+    font-size: 14px;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+
+
+}
+select{
+    padding: 4px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.main{
+    color: white;
+    margin-top:100px;
+    margin-right:100px;
+    
+    
+    
+}
+#title-main{
+    margin: 0px;
+    font-size: 52px;
+    
+} 
+#btn-start{
+    background-color: red;
+    margin-left: 10px;
+    font-size: 22px;
+    padding: 2px 20px;
+    font-weight: 600px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+}
+#input{
+ height: 50px;
+ width: 350px;
+ background-color: rgba(0, 0, 0, 0.39);
+ border: 1px solid gray;
+ border-radius: 5px;
+ font-size: 18px;
+ padding: 0px 10px;
+}
+#box-container{
+    width: 99%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: red;
+    border-radius: 5px;
+    background-color:#00081D ;
+
+    
+}
+.box-info{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    padding: 40px;
+
+}
+
+
+
+
